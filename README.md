@@ -32,13 +32,10 @@ Insert Sweet2Alert2 and livewire alert scripts component after livewire scripts 
 
 SweetAlert2 script is not included by default so make sure you include it before
 
-```
-<x-livewire-alert::scripts />
-```
-
 ```html
 <body>
   ... @livewireScripts ...
+
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
   ...
   <x-livewire-alert::scripts />
@@ -119,6 +116,7 @@ public function triggerConfirm()
         'showConfirmButton' => true,
         'cancelButtonText' => Nope,
         'onConfirmed' => 'confirmed',
+        // 'onConfirmed' => ['confirmed', $id], you can pass argument with array
         'onCancelled' => 'cancelled'
     ];
 }
