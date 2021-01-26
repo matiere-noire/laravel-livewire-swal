@@ -1,7 +1,7 @@
 {
   "name": "matierenoire/laravel-livewire-swal",
   "description": "This package provides a simple alert utilities for your livewire components.",
-  "homepage": "https://github.com/jantinnerezo/livewire-alert",
+  "homepage": "https://github.com/matierenoire/laravel-livewire-swal",
   "license": "MIT",
   "type": "library",
   "authors": [
@@ -17,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Jantinnerezo\\LivewireAlert\\": "src"
+      "MN\\LivewireAlert\\": "src"
     }
   },
   "scripts": {
@@ -30,10 +30,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Jantinnerezo\\LivewireAlert\\LivewireAlertServiceProvider"
+        "MN\\LivewireAlert\\LivewireAlertServiceProvider"
       ],
       "aliases": {
-        "LivewireAlert": "Jantinnerezo\\LivewireAlert\\LivewireAlertFacade"
+        "LivewireAlert": "MN\\LivewireAlert\\LivewireAlertFacade"
       }
     }
   }
