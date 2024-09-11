@@ -18,7 +18,7 @@ This package uses Livewire under the hood. Please make sure you include it in yo
 
 - PHP 7.2 or higher
 
-- Laravel 7, 8, 9
+- Laravel 7, 8, 9, 10, 11
 
 - Livewire
 
